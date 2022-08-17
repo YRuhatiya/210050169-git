@@ -3,9 +3,9 @@
 using namespace std;
 #include<string>
 
-int hash_string(string s) {
+int hash_string(string s,int m) {
     // implement hashing function here
-    int m = 71;
+    //int m = 71;
     int sum=0;
     for(int i=0;i<s.length();i++){
 		char x = s[i];
